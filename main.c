@@ -92,7 +92,7 @@ int main()
                     ledOff();
                     sampleCount = 0;
                     currentState = STATE_LIGHT_OFF;
-                    mockSleep(SAMPLING_INTERVAL_MS - LIGHT_ON_PULSE_MS);
+                    mockSleep(SAMPLING_INTERVAL_MS - LIGHT_OFF_PULSE_MS);
                 }
                 else
                 {
