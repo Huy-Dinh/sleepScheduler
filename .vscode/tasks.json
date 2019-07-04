@@ -16,7 +16,25 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "build test",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-Iheader",
+                "-o",
+                "debug\\main_test",
+                "main_test.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         }
     ]
 }

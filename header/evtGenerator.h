@@ -6,8 +6,8 @@
 #ifndef EVENT_GEN_H
 #define EVENT_GEN_H
 
-#define LIGHT_STABLE_THRESHOLD          (200)
-#define LIGHT_STABLE_COUNT_THRESHOLD    (2)
+#define LIGHT_STABLE_THRESHOLD          (25)
+#define LIGHT_STABLE_COUNT_THRESHOLD    (5)
 
 typedef enum
 {
